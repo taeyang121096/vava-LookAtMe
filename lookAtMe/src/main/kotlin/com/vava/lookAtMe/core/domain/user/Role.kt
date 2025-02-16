@@ -1,12 +1,5 @@
 package com.vava.lookAtMe.core.domain.user
 
-import jakarta.persistence.Embeddable
-
-@Embeddable
-data class Role(
-    val role: RoleType
-)
-
-enum class RoleType {
+enum class Role {
     USER, ADMIN
 }
